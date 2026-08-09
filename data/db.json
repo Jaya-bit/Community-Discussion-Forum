@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": "p1",
+      "title": "Welcome to the community — introduce yourself!",
+      "body": "This is the place to say hello. Tell us where you're from and what brought you here.",
+      "author": "Moderator",
+      "category": "Announcements",
+      "likes": 3,
+      "likedBy": [],
+      "createdAt": 1785833335975
+    },
+    {
+      "id": "p2",
+      "title": "What are you working on this week?",
+      "body": "Share a small win or something you're stuck on. Someone here has probably run into it before.",
+      "author": "Priya",
+      "category": "General",
+      "likes": 5,
+      "likedBy": [],
+      "createdAt": 1786006135975
+    },
+    {
+      "id": "p3",
+      "title": "Feature idea: dark mode toggle",
+      "body": "Would love an easy way to switch themes. Anyone else want this?",
+      "author": "Sam",
+      "category": "Ideas",
+      "likes": 8,
+      "likedBy": [],
+      "createdAt": 1786074535975
+    }
+  ],
+  "comments": [
+    {
+      "id": "c1",
+      "postId": "p1",
+      "author": "Alex",
+      "body": "Hey everyone, glad to be here!",
+      "createdAt": 1786020535975
+    }
+  ],
+  "users": [
+    {
+      "id": "V9bR5QADCSDh",
+      "username": "testuser",
+      "password": "pass123",
+      "name": "Test User",
+      "createdAt": 1786095993895
+    },
+    {
+      "id": "1TvVZpdyGUtr",
+      "username": "jaya",
+      "password": "1105",
+      "name": "Jaya Sharma",
+      "createdAt": 1786096270777
+    }
+  ]
+}

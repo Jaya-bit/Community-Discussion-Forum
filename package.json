@@ -1,0 +1,16 @@
+{
+  "name": "community-forum-server",
+  "version": "1.0.0",
+  "description": "Express REST API for the community discussion forum",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build-client": "cd ../client && npm install && npm run build"
+  },
+  "postinstall": "npm run build-client",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
