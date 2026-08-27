@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useCallback } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { api } from './api';
 import Header from './components/Header.jsx';
 import CategoryTabs from './components/CategoryTabs.jsx';
@@ -199,6 +200,7 @@ export default function App() {
           />
         )}
         <Toast toast={toast} />
+        <SpeedInsights />
       </div>
     );
   }
@@ -285,6 +287,7 @@ export default function App() {
       )}
 
       <Toast toast={toast} />
+      <SpeedInsights />
     </div>
   );
 }
